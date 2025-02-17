@@ -13,14 +13,14 @@ let nome = prompt("Qual é o seu nome?");
 
     //PROCESSAMENTO
     while(quest1) {
-        quest1 = prompt("Quantos anos você tem?");
+        quest1 = prompt("Quantos anos você tem?.");
         if(quest1 < 12) {
-            alert("Informe sua idade!");
+            alert("Informe sua idade!.");
         }
         break;
 }
     while(quest2) {
-        quest2 = prompt("Quantas horas de sono você costuma ter por noite?");
+        quest2 = prompt("Quantas horas de sono você costuma ter por noite?.");
         if(quest2 < 5) {
             alert("Dormir menos de 5 horas pode afetar sua saúde. Tente alcançar pelo menos 7 a 8 horas de sono por noite.");
         }
@@ -40,7 +40,7 @@ let nome = prompt("Qual é o seu nome?");
     }
     while(quest3){
 
-        quest3 = prompt(`Você usa dispositivos eletrônicos (celular, TV, computador) antes de dormir?
+        quest3 = prompt(`Você usa dispositivos eletrônicos (celular, TV, computador) antes de dormir?.
          1-Sempre, até minutos antes de dormir.
          2-Frequentemente, cerca de 30 minutos antes.
          3-Raramente, desligo pelo menos uma hora antes.
@@ -64,7 +64,7 @@ let nome = prompt("Qual é o seu nome?");
 }
     while(quest4){
 
-        quest4 = prompt(`Você consome cafeína no período da tarde ou noite?
+        quest4 = prompt(`Você consome cafeína no período da tarde ou noite?.
         1-Sim, depois das 18h. 
         2-Sim, entere 15h e 18h. 
         3-Sim, mas apenas pela manhã. 
@@ -88,7 +88,11 @@ let nome = prompt("Qual é o seu nome?");
 }
     while(quest5) {
 
-        quest5 = prompt( "Você mantém horários regulares para dormir e acordar?1-Nunca, meus horários variam muito. 2-Raramente, sigo um padrão só às vezes. 3-Frequentemente, mas com algumas exceções.4-Sempre, mantenho uma rotina bem definida.");
+        quest5 = prompt(`Você mantém horários regulares para dormir e acordar?.
+        1-Nunca, meus horários variam muito. 
+        2-Raramente, sigo um padrão só às vezes. 
+        3-Frequentemente, mas com algumas exceções.
+        4-Sempre, mantenho uma rotina bem definida.`);
         if( quest5 == 1){
             alert("Tentar estabelecer horários regulares para dormir e acordar pode melhorar muito a qualidade do seu sono. A consistência é a chave para um descanso melhor.");
         }
@@ -108,7 +112,7 @@ let nome = prompt("Qual é o seu nome?");
 }
     while(quest6) {
 
-        quest6 =  prompt(`Antes de dormir, você tem algum hábito, como praticar atividades físicas, escrever ou ler algo.
+        quest6 =  prompt(`Antes de dormir, você tem algum hábito, como praticar atividades físicas, escrever ou ler algo?
         1-Pratico atividades físicas antes de dormir.
         2-Leio um livro ou texto antes de dormir.
         3-Não possuo nenhum hábito específico antes de dormir.
@@ -132,7 +136,10 @@ let nome = prompt("Qual é o seu nome?");
 }
     while(quest7) {
         
-    quest6 =  prompt("Você segue algum hábito alimentar antes de dormir? 1-Nada específico. 2-Prefiro comidas leves, como frutas e saladas. 3-Costumo consumir comidas pesadas, como fast-food e industrializados.");
+    quest6 =  prompt(`Você segue algum hábito alimentar antes de dormir?. 
+    1-Nada específico. 
+    2-Prefiro comidas leves, como frutas e saladas. 
+    3-Costumo consumir comidas pesadas, como fast-food e industrializados.`);
         if( quest6 == 1){
             alert("ente evitar alimentos pesados ou com cafeína antes de dormir. Opte por opções leves, como frutas ou chás sem cafeína, para um sono mais tranquilo.");
         }
