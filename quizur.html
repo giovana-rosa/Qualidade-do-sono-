@@ -1,0 +1,145 @@
+<script>
+
+    //ENTRADA
+    
+let nome = prompt("Qual é o seu nome?");
+    let quest1 = "Yt";
+    let quest2 = "YT";
+    let quest3 = "YT";
+    let quest4 = "YT";
+    let quest5 = "YT";
+    let quest6 = "YT";
+    let quest7 = "YT";
+
+    //PROCESSAMENTO
+    while(quest1) {
+        quest1 = prompt("Quantos anos você tem?");
+        if(quest1 < 12) {
+            alert("Informe sua idade!")
+        }
+        break;
+}
+    while(quest2) {
+        quest2 = prompt("Quantas horas de sono você costuma ter por noite?");
+        if(quest2 < 5) {
+            alert("Dormir menos de 5 horas pode afetar sua saúde. Tente alcançar pelo menos 7 a 8 horas de sono por noite.")
+        }
+        else if (quest2 == 5 || quest2 == 6) {
+            alert("Dormir entre 5 e 6 horas regularmente pode deixar você mais cansado durante o dia. Tente chegar às 7-8 horas para melhorar sua energia e bem-estar.")
+        }
+        else if(quest2 == 7 ||  quest2 == 8 ){
+            alert("Excelente! Dormir entre 7 e 8 horas é o recomendado para a maioria das pessoas e ajuda a manter o corpo e a mente saudáveis.")
+        }
+        else if(quest2 > 8){
+            alert("Dormir mais de 8 horas não é necessariamente ruim, mas pode ser um sinal de que seu corpo está precisando de mais descanso. Observe como você se sente ao acordar e veja se isso afeta sua rotina.")
+        }
+        else{
+            alert("Informe as horas de sono em números!")
+        }
+        break;
+    }
+    while(quest3){
+
+        quest3 = prompt(`Você usa dispositivos eletrônicos (celular, TV, computador) antes de dormir?
+         1-Sempre, até minutos antes de dormir.
+         2-Frequentemente, cerca de 30 minutos antes.
+         3-Raramente, desligo pelo menos uma hora antes.
+         4- Nunca. Evito telas antes de dormir`);
+        if(quest3 == 1 ){
+            alert("Usar dispositivos eletrônicos até minutos antes de dormir pode afetar a qualidade do sono. Tente evitar telas pelo menos 1 hora antes de dormir para melhorar seu descanso.")
+        }
+        else if(quest3 == 2){
+            alert("Tente adicinar mais uma meia hora. Mas está no caminho certo!")
+        }
+        else if(quest3 == 3){
+            alert("Ótimo! Desligar as telas pelo menos 1 hora antes de dormir é o recomendado para melhorar a qualidade do sono.")
+        }
+        else if(quest3 == 4){
+            alert("Parabéns! Evitar telas antes de dormir é uma excelente prática para garantir um sono mais profundo e restaurador. Continue assim!")
+        }
+        else{
+            alert("Informe uma das optativas(em números)")
+        }
+        break;
+}
+    while(quest4){
+
+        quest4 = prompt("Você consome cafeína no período da tarde ou noite?1-Sim, depois das 18h. 2-Sim, entere 15h e 18h. 3-Sim, mas apenas pela manhã. 4-Não consumo cafeína")
+        if( quest4 == 1){
+            alert("Consumir cafeína após as 18h pode interferir no seu sono. Tente evitar esse hábito, principalmente se tiver dificuldade para dormir.")
+        }
+        else if(quest4 == 2){
+            alert("Tomar cafeína entre 15h e 18h ainda pode afetar a qualidade do seu sono. Prefira consumir pela manhã ou início da tarde para evitar impactos negativos.")
+        }
+        else if(quest4 == 3 ){
+            alert("Excelente! Consumir cafeína pela manhã é o mais recomendado, pois o efeito desaparece antes de você dormir.")
+        }
+        else if(quest4 == 4){
+            alert("Parabéns! Não consumir cafeína é uma excelente escolha para manter uma boa qualidade de sono.")
+        }
+        else{
+            alert("Informe uma das optativas(em números)")
+        }
+        break;
+}
+    while(quest5) {
+
+        quest5 = prompt( "Você mantém horários regulares para dormir e acordar?1-Nunca, meus horários variam muito. 2-Raramente, sigo um padrão só às vezes. 3-Frequentemente, mas com algumas exceções.4-Sempre, mantenho uma rotina bem definida");
+        if( quest5 == 1){
+            alert("Tentar estabelecer horários regulares para dormir e acordar pode melhorar muito a qualidade do seu sono. A consistência é a chave para um descanso melhor.")
+        }
+        else if(quest5 == 2){
+            alert("Ter uma rotina de sono mais consistente é importante. Tente seguir um padrão com mais regularidade para ajudar seu corpo a descansar melhor.")
+        }
+        else if(quest5 == 3){
+            alert("Você está no caminho certo! Manter um padrão regular de sono é essencial, mas tente ser mais consistente para obter os melhores resultados.")
+        }
+        else if(quest5 == 4){
+            alert("Parabéns! Manter uma rotina de sono regular é uma das melhores coisas que você pode fazer para melhorar a qualidade do seu descanso e saúde.")
+        }
+        else{
+            alert("Informe uma das optativas(em números)")
+        }
+        break;
+}
+    while(quest6) {
+
+        quest6 =  prompt("Antes de dormir, você tem algum hábito, como praticar atividades físicas, escrever ou ler algo.1-Pratico atividades físicas antes de dormir.2-Leio um livro ou texto antes de dormir.3-Não possuo nenhum hábito específico antes de dormir.4-Outro");
+        if(quest6 == 1){
+            alert("Se você pratica exercícios antes de dormir, observe como isso afeta seu sono. Exercícios leves, como caminhadas ou alongamentos, podem ser relaxantes e ajudar a dormir, enquanto exercícios intensos podem dificultar o sono. Se você não tiver problemas para dormir, continue. Caso contrário, tente ajustar o horário ou a intensidade do exercício.")
+        }
+        else if(quest6 == 2){
+            alert("Ler antes de dormir é ótimo! Apenas lembre-se de evitar luzes muito fortes ou telas, pois podem interferir na produção de melatonina, o hormônio do sono.")
+        }
+        else if(quest6 == 3){
+            alert("Ter uma rotina relaxante antes de dormir pode melhorar muito a qualidade do sono. Tente incorporar atividades como ler, meditar ou ouvir música suave.")
+        }
+        else if(quest6 == 4){
+            alert("Espero que seu hábito não atrapalhe seu sono! Atividades relaxantes, como meditação ou leitura, podem ser ótimas para melhorar o descanso.")
+        }
+        else{
+            alert("Informe uma das optativas(em números)")
+        }
+        break;
+}
+    while(quest7) {
+        
+    quest6 =  prompt("Você segue algum hábito alimentar antes de dormir? 1-Nada específico. 2-Prefiro comidas leves, como frutas e saladas. 3-Costumo consumir comidas pesadas, como fast-food e industrializados.");
+        if( quest6 == 1){
+            alert("ente evitar alimentos pesados ou com cafeína antes de dormir. Opte por opções leves, como frutas ou chás sem cafeína, para um sono mais tranquilo.")
+        }
+        else if(quest6 == 2){
+            alert("Ótima escolha! Comidas leves, como frutas e saladas, são ideais antes de dormir, pois ajudam a digestão e promovem um sono mais profundo.")
+        }
+        else if(quest6 == 3){
+            alert("Comidas pesadas, como fast food ou carne vermelha, podem dificultar a digestão e atrapalhar o sono. Tente optar por opções mais leves para garantir uma noite de descanso mais tranquila.")
+        }
+        else{
+            alert("Informe uma das optativas(em números)")
+        }
+        break;
+}
+
+document.write("Parabéns! Você terminou o quiz. Até a próxima :)")
+
+</script>
